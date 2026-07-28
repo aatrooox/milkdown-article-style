@@ -12,6 +12,10 @@
     "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
   --wx-body-color: #292526;
   --wx-muted-color: #6f696b;
+  /* Heading chroma: H2 slightly deeper than body; H3 between body and muted.
+   * Prefer color hierarchy over font-weight 600 (unreliable on many CJK system fonts / WeChat). */
+  --wx-h2-color: #1f1b1c;
+  --wx-h3-color: #5c5658;
   --wx-brand-ink: #a94473;
   --wx-brand-accent: #ca6093;
   --wx-divider-color: #e2dcdf;

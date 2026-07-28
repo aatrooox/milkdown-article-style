@@ -1,6 +1,6 @@
 {
   "name": "@zzclub/milkdown-article-style",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared Milkdown / WeChat article typography CSS (used by zzhub-pipeline export and Nezus editor)",
   "license": "UNLICENSED",
   "private": false,
