@@ -1,5 +1,5 @@
 {
-  "name": "@zzhub/milkdown-article-style",
+  "name": "@zzclub/milkdown-article-style",
   "version": "0.1.0",
   "description": "Shared Milkdown / WeChat article typography CSS (used by zzhub-pipeline export and Nezus editor)",
   "license": "UNLICENSED",
@@ -17,7 +17,7 @@
     "./package.json": "./package.json"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "repository": {
     "type": "git",

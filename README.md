@@ -1,4 +1,4 @@
-# `@zzhub/milkdown-article-style`
+# `@zzclub/milkdown-article-style`
 
 Shared **article typography** for Milkdown surfaces that should match WeChat
 export output.
@@ -22,20 +22,20 @@ export output.
 ### Local (sibling checkouts under `core/`)
 
 ```json
-"@zzhub/milkdown-article-style": "file:../milkdown-article-style"
+"@zzclub/milkdown-article-style": "file:../milkdown-article-style"
 ```
 
 ### Published registry (after first publish)
 
 ```bash
-pnpm add @zzhub/milkdown-article-style
+pnpm add @zzclub/milkdown-article-style
 # or
-bun add @zzhub/milkdown-article-style
+bun add @zzclub/milkdown-article-style
 ```
 
 ```ts
-import '@zzhub/milkdown-article-style/tokens-default.css'
-import '@zzhub/milkdown-article-style/article.css'
+import '@zzclub/milkdown-article-style/tokens-default.css'
+import '@zzclub/milkdown-article-style/article.css'
 ```
 
 ## Ownership
