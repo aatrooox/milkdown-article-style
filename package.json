@@ -1,0 +1,33 @@
+{
+  "name": "@zzhub/milkdown-article-style",
+  "version": "0.1.0",
+  "description": "Shared Milkdown / WeChat article typography CSS (used by zzhub-pipeline export and Nezus editor)",
+  "license": "UNLICENSED",
+  "private": false,
+  "type": "module",
+  "files": [
+    "article.css",
+    "tokens-default.css",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./article.css",
+    "./article.css": "./article.css",
+    "./tokens-default.css": "./tokens-default.css",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aatrooox/milkdown-article-style.git"
+  },
+  "keywords": [
+    "milkdown",
+    "wechat",
+    "typography",
+    "css",
+    "zzhub"
+  ]
+}

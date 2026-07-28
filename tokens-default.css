@@ -1,0 +1,22 @@
+/*
+ * Default editorial tokens (sage-journal / default account).
+ *
+ * Export path injects the same variables via buildWechatThemeCss(themes.ts).
+ * Live hosts (Nezus editor) should load this file so article.css resolves.
+ *
+ * Override by redefining --wx-* on a parent or on `.milkdown .editor`.
+ */
+
+.milkdown .editor {
+  --wx-font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+  --wx-body-color: #292526;
+  --wx-muted-color: #6f696b;
+  --wx-brand-ink: #a94473;
+  --wx-brand-accent: #ca6093;
+  --wx-divider-color: #e2dcdf;
+  --wx-blockquote-border: #ca6093;
+  --wx-body-line-height: 1.84;
+  --wx-body-letter-spacing: 0.012em;
+  --wx-soft-surface: #faf7f8;
+}
