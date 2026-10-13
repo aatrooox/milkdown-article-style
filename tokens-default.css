@@ -1,5 +1,5 @@
 /*
- * Default editorial tokens (sage-journal / default account).
+ * Default editorial tokens (sage-journal / default account) by Kairos.
  *
  * Export path injects the same variables via buildWechatThemeCss(themes.ts).
  * Live hosts (Nezus editor) should load this file so article.css resolves.
@@ -18,9 +18,13 @@
   --wx-h3-color: #5c5658;
   --wx-brand-ink: #a94473;
   --wx-brand-accent: #ca6093;
+  --wx-brand-bg: rgba(202, 96, 147, 0.08);
   --wx-divider-color: #e2dcdf;
+  --wx-divider: #eae4e7;
   --wx-blockquote-border: #ca6093;
   --wx-body-line-height: 1.84;
   --wx-body-letter-spacing: 0.012em;
-  --wx-soft-surface: #faf7f8;
+  --wx-soft-surface: #faf8f9;
+  --wx-text-soft: #555555;
+  --wx-text-mid: #3c4043;
 }

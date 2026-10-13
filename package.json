@@ -1,11 +1,12 @@
 {
-  "name": "@zzclub/milkdown-article-style",
-  "version": "0.1.1",
-  "description": "Shared Milkdown / WeChat article typography CSS (used by zzhub-pipeline export and Nezus editor)",
-  "license": "UNLICENSED",
+  "name": "@akairos/milkdown-article-style",
+  "version": "0.1.2",
+  "description": "Shared Milkdown / WeChat article typography CSS by Kairos (opinionated default editorial standard, fully customizable and overridable)",
+  "license": "MIT",
   "private": false,
   "type": "module",
   "files": [
+    "LICENSE",
     "article.css",
     "tokens-default.css",
     "README.md"
@@ -28,6 +29,7 @@
     "wechat",
     "typography",
     "css",
-    "zzhub"
+    "kairos",
+    "article-style"
   ]
 }
