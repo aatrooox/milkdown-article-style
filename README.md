@@ -1,6 +1,8 @@
 # `@akairos/milkdown-article-style`
 
-Shared **article typography CSS** for Milkdown editor surfaces and WeChat article publishing.
+旧版 Milkdown / 微信正文样式兼容包。`0.1.3` 为最后一个维护版本，包含表头单行和横向滚动修复。
+
+正文样式已迁入 `@akairos/myno@0.3.1`：新项目请引用 `@akairos/myno/article.css` 与 `@akairos/myno/tokens-default.css`，或 `@akairos/myno/style` 一次加载两者。已发布的旧版本继续可用。
 
 > 💡 **设计说明**：本项目是作者 **Kairos 自己的公众号与 Milkdown 写作排版规范标准（Opinionated Default Standard）**。追求克制、舒适的呼吸感与杂志级排版质感。宿主应用与用户可以按需全量采用，或通过覆写 CSS 变量与选择器进行自由定制。
 

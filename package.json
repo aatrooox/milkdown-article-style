@@ -1,6 +1,6 @@
 {
   "name": "@akairos/milkdown-article-style",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Shared Milkdown / WeChat article typography CSS by Kairos (opinionated default editorial standard, fully customizable and overridable)",
   "license": "MIT",
   "private": false,
@@ -31,5 +31,6 @@
     "css",
     "kairos",
     "article-style"
-  ]
+  ],
+  "deprecated": "Article styles are maintained in @akairos/myno. Use @akairos/myno/article.css and @akairos/myno/tokens-default.css."
 }
