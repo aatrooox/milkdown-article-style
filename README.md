@@ -21,8 +21,11 @@ Shared **article typography CSS** for Milkdown editor surfaces and WeChat articl
 
 | 项目 | 使用方式 |
 | --- | --- |
-| **@akairos/pipeline** | 在微信导出打包时引入 `article.css`（构建时 `?raw` 并通过 Juice 进行 HTML 内联化） |
-| **Nezus 写作编辑器** | 在 Milkdown 编辑器中加载 `tokens-default.css` 与 `article.css` 实现沉浸式实时所见即所得 |
+| [myno](https://github.com/k7airos/myno) | 直接依赖本包，在编辑器与独立工作台加载正文样式，微信导出时内联 CSS |
+| [zzhub-pipeline](https://github.com/k7airos/zzhub-pipeline) | 直接依赖本包，内置微信导出时引入 `article.css`；启用 myno 时使用插件构建的排版资源 |
+| Nezus 写作编辑器 | 通过 myno 及共享样式包复用正文外观，是现有应用消费方 |
+
+配套的 [Milkdown Article Plugins](https://github.com/k7airos/milkdown-article-plugins) 提供高亮、卡片、徽章和快捷键的语法与序列化；本包只提供 CSS，不负责解析 Markdown。[Kairos Skills](https://github.com/k7airos/kairos-skills) 中的 `milkdown-writing` 提供这些语法的写作说明。只想调样式和复制到公众号可使用 myno；需要完整草稿发布流程可使用 Pipeline。
 
 ---
 
@@ -41,6 +44,8 @@ npm install @akairos/milkdown-article-style
 import '@akairos/milkdown-article-style/tokens-default.css';
 import '@akairos/milkdown-article-style/article.css';
 ```
+
+本包无需 JavaScript 运行时、账号或 API 服务。微信不直接加载外部 CSS；发布时由 myno / Pipeline 等宿主将样式内联到 HTML。修改此包的 CSS 后，需要重建消费方的浏览器 bundle 并更新安装包，才能影响已构建的导出资源。
 
 ---
 
